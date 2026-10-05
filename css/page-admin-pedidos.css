@@ -1,0 +1,12 @@
+.mg-inline-1{color:#18c778;}
+.mg-inline-2{display:flex; gap:10px; flex-wrap:wrap;}
+.mg-inline-3{text-align:center; padding:35px;}
+.mg-inline-4{font-size:35px; margin-bottom:10px;}
+.mg-inline-5{margin-top:8px; color:#777;}
+.mg-inline-6{width:100%;}
+.mg-inline-7{width:100%; padding:12px; border:1px solid #ddd; border-radius:8px; resize:vertical;}
+.mg-inline-8{display:flex; gap:10px; justify-content:flex-end; margin-top:20px;}
+.mg-inline-9{margin-top:20px;}
+.mg-inline-10{margin-top:20px;}
+.mg-inline-11{display:grid; gap:12px;}
+.mg-inline-12{text-align:right; margin-top:20px;}

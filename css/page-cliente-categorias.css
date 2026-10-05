@@ -1,0 +1,96 @@
+
+
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 22px;
+        }
+
+        .category-card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 28px;
+            border: 1px solid #edf0f2;
+            transition: 0.2s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .category-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+            border-color: #18c778;
+        }
+
+        .category-icon {
+            width: 65px;
+            height: 65px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 32px;
+            margin-bottom: 18px;
+        }
+
+        .category-icon.verde {
+            background: #e7f9ef;
+        }
+
+        .category-icon.azul {
+            background: #eaf2ff;
+        }
+
+        .category-icon.amarillo {
+            background: #fff7dc;
+        }
+
+        .category-icon.rojo {
+            background: #ffeded;
+        }
+
+        .category-icon.morado {
+            background: #f1eaff;
+        }
+
+        .category-icon.naranja {
+            background: #fff0df;
+        }
+
+        .category-card h3 {
+            margin: 0 0 8px;
+            font-size: 18px;
+        }
+
+        .category-card p {
+            margin: 0 0 20px;
+            color: #777;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .category-link {
+            color: #18b96e;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 1000px) {
+
+            .categories-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
+
+        @media (max-width: 650px) {
+
+            .categories-grid {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    
+.mg-inline-1{color:#18c778;}

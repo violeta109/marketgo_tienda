@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #f1f5f9;
+}
+
+/* CONTENEDOR */
+
+.login-container {
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* CAJA LOGIN */
+
+.login-box {
+    width: 490px;
+
+    background: white;
+
+    padding: 35px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+.login-box h1 {
+    text-align: center;
+
+    margin-bottom: 10px;
+
+    color: #1e293b;
+}
+
+.login-box > p {
+    text-align: center;
+
+    color: #666;
+
+    margin-bottom: 25px;
+}
+
+/* LABEL */
+
+.login-box label {
+    display: block;
+
+    margin-bottom: 6px;
+
+    font-weight: bold;
+}
+
+/* INPUT */
+
+.login-box input {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-bottom: 15px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 14px;
+}
+
+.login-box input:focus {
+    outline: none;
+
+    border-color: #2563eb;
+}
+
+/* BOTÓN */
+
+.login-box button {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 5px;
+
+    background: #2563eb;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #1d4ed8;
+}
+
+/* MENSAJE */
+
+.mensaje-login {
+    padding: 10px;
+
+    margin-bottom: 15px;
+
+    border-radius: 6px;
+
+    background: #fee2e2;
+
+    color: #991b1b;
+
+    font-size: 14px;
+}
+
+/* ENLACES */
+
+.login-box a {
+    color: #2563eb;
+
+    text-decoration: none;
+}
+
+.login-box a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.mg-inline-1{color:#18c778;}
+
+/*  contraseña */
+.password-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding-right: 88px;
+}
+
+/* Botón  */
+.password-toggle {
+    position: absolute;
+    right: 0px;
+    top: 10%;
+    transform: translateY(-50%);
+
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+    font-size: 18px;
+    padding: 6px;
+
+    color: #e1d0d0;
+}
+
+.password-toggle:hover {
+    opacity: 0.7;
+}
